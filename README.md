@@ -3,6 +3,7 @@
 A Dual Camera System for High Spatiotemporal Resolution Video Acquisition
 
 Project **|** [Paper](https://arxiv.org/abs/1909.13051)
+
 Ming Cheng, [Zhan Ma](https://vision.nju.edu.cn/fc/d3/c29470a457939/page.htm), [M. Salman Asif](https://intra.ece.ucr.edu/~sasif/index.html), [Yiling Xu](http://english.seiee.sjtu.edu.cn/english/detail/2737_1313.htm), Haojie Liu, [Wenbo Bao](https://sites.google.com/view/wenbobao/home), and Jun Sun
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
