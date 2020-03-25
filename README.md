@@ -33,10 +33,10 @@ These images are captured with our dual iPhone 7 cameras.
 </div>
 
 #### Video Demos
-Different illumination conditions
+Different illumination conditions:
 [High Light Illumination](http://yun.nju.edu.cn/f/5087da2041/?raw=1) **|** [Medium Light Illumination](http://yun.nju.edu.cn/f/c251103e67/?raw=1) **|** [Low Light Illumination](http://yun.nju.edu.cn/f/42a121985b/?raw=1)
 
-Single-Reference vs Multi-Reference
+Single-Reference vs Multi-Reference:
 [Simulated data](http://yun.nju.edu.cn/f/f8c3604d6a/?raw=1) **|** [Real data](http://yun.nju.edu.cn/f/76f3cea6da/?raw=1)
 
 
