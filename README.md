@@ -14,7 +14,9 @@ The code has been tested with Python 3.7, PyTorch 1.0, CUDA 10.1 and Cudnn 7.6.4
 
 Once your environment is set up and activated, generate the Correlation package required by [PWCNet](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch/external_packages/correlation-pytorch-master):
 
-  $ cd correlation_package_pytorch1_0
-  $ ./build.sh
+    $ cd correlation_package_pytorch1_0
+    $ sh build.sh
+    
+
   
   
