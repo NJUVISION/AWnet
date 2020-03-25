@@ -8,7 +8,7 @@ Ming Cheng, [Zhan Ma](https://vision.nju.edu.cn/fc/d3/c29470a457939/page.htm), [
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 
-![image](https://github.com/NJUVISION/AWnet/tree/master/images/f1x7.pdf)
+![image](https://github.com/NJUVISION/AWnet/tree/master/images/image_system.jpg)
 
 ### Installation
 
@@ -29,5 +29,5 @@ Once your environment is set up and activated, generate the Correlation package 
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif)
 -->  
 <div align="center">
-    <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" height="200"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" height="200"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" height="200"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" height="200"/>  
+    <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" height="200"/>  
 </div>
