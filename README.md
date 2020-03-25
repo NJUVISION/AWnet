@@ -28,8 +28,6 @@ Once your environment is set up and activated, generate the Correlation package 
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/1.gif)
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif)
 -->  
-<img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" style="height:200px" />
-<img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" style="height:200px" />
-<img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" style="height:200px" />
-<img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" style="height:200px" />  
-
+<center class="half">
+    <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" style="height:200px" /><img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" style="height:200px" /><img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" style="height:200px" /><img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" style="height:200px" />  
+</center>
