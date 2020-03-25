@@ -19,15 +19,18 @@ Once your environment is set up and activated, generate the Correlation package 
     $ cd correlation_package_pytorch1_0
     $ sh build.sh
     
-
-
 ### Demos
 <!--哈哈我是注释，不会在浏览器中显示。
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/0.gif)
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/2.gif)
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/1.gif)
 ![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif)
--->  
+-->
+#### Image demos
+These images are captured with our dual iPhone 7 cameras.
 <div align="center">
-    <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" height="300"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" height="200"/>  
+    <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" height="250"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/2.gif" height="250"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" height="250"/><img src="https://github.com/NJUVISION/AWnet/blob/master/images/3.gif" height="200"/>  
 </div>
+
+#### Video Demos
+<iframe height=498 width=510 src="">
