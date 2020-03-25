@@ -2,13 +2,13 @@
 
 A Dual Camera System for High Spatiotemporal Resolution Video Acquisition
 
-![image](https://github.com/NJUVISION/AWnet/blob/master/images/0.gif)
-
 Project **|** [Paper](https://arxiv.org/abs/1909.13051) **|** [video]()
 
 Ming Cheng, [Zhan Ma](https://vision.nju.edu.cn/fc/d3/c29470a457939/page.htm), [M. Salman Asif](https://intra.ece.ucr.edu/~sasif/index.html), [Yiling Xu](http://english.seiee.sjtu.edu.cn/english/detail/2737_1313.htm), Haojie Liu, [Wenbo Bao](https://sites.google.com/view/wenbobao/home), and Jun Sun
 
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+
+![image](https://github.com/NJUVISION/AWnet/tree/master/images/f1x7.pdf)
 
 ### Installation
 
@@ -19,6 +19,13 @@ Once your environment is set up and activated, generate the Correlation package 
     $ cd correlation_package_pytorch1_0
     $ sh build.sh
     
+
+
+### Demos
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/0.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/1.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/2.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif)
 
   
   
