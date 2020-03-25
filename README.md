@@ -23,10 +23,10 @@ Once your environment is set up and activated, generate the Correlation package 
 
 ### Demos
 
-![image](https://github.com/NJUVISION/AWnet/blob/master/images/0.gif =100)
-![image](https://github.com/NJUVISION/AWnet/blob/master/images/2.gif =100)
-![image](https://github.com/NJUVISION/AWnet/blob/master/images/1.gif =100)
-![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif =100)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/0.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/2.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/1.gif)
+![image](https://github.com/NJUVISION/AWnet/blob/master/images/3.gif)
 <!--哈哈我是注释，不会在浏览器中显示。
 <img src="https://github.com/NJUVISION/AWnet/blob/master/images/0.gif" style="zoom:50%" />
 <img src="https://github.com/NJUVISION/AWnet/blob/master/images/1.gif" style="zoom:100%" />
