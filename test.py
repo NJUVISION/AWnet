@@ -43,7 +43,9 @@ def test(ref,sr,result):
 	imwrite(result,(output[0]*255).astype(np.uint8))
 
 def test_image():
+	# upsampled low-resolution frame
 	sr = 'l4.png'
+	# reference frame
 	ref = 'ref.png'
 	result = 'result.png'
 	test(ref,sr,result)
