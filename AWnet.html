@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Deep Slow Motion</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <link rel="icon" type="image/png" href="img/lens-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131406202-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131406202-2');
+    </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h1 class="col-md-12 text-center">
+                Deep Slow Motion Video Reconstruction with
+                    <br>Hybrid Imaging System<br> 
+                <small>
+                    PAMI (ICCP 2020)
+                </small>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://people.tamu.edu/~avinashpaliwal/">
+                            Avinash Paliwal
+                        </a>
+                        <br>Texas A&amp;M University
+                    </li>
+                    <li>
+                        <a href="http://faculty.cs.tamu.edu/nimak/">
+                          Nima Khademi Kalantari
+                        </a>
+                        <br>Texas A&amp;M University
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+<!--         <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Links
+                </h3>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <img src="img/Teaser.jpg" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+                    Slow motion videos are becoming increasingly popular, but capturing high-resolution videos at extremely high frame rates requires professional high-speed cameras. To mitigate this problem, current techniques increase the frame rate of standard videos through frame interpolation by assuming linear motion between the existing frames. While this assumption holds true for simple cases with small motion, in challenging cases the motion is usually complex and this assumption is no longer valid. Therefore, they typically produce results with unnatural motion in these challenging cases. In this paper, we address this problem using two video streams as the input; an auxiliary video with high frame rate and low spatial resolution, providing temporal information, in addition to the standard main video with low frame rate and high spatial resolution. We propose a two-stage deep learning system consisting of alignment and appearance estimation that reconstructs high resolution slow motion video from the hybrid video input. For alignment, we propose to use a set of pre-trained and trainable convolutional neural networks (CNNs) to compute the flows between the missing frame and the two existing frames of the main video by utilizing the content of the auxiliary video frames. We then warp the existing frames using the flows to produce a set of aligned frames. For appearance estimation, we propose to combine the aligned and auxiliary frames using a context and occlusion aware CNN. We train our model on a set of synthetically generated hybrid videos and show high-quality results on a wide range of test scenes. We further demonstrate the practicality of our approach by showing the performance of our system on two real dual camera setups with small baseline.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Technical Video
+                </h3>
+                <div class="text-center">
+                    <div style="position:relative;padding-top:56.25%;">
+                        <iframe src="https://www.youtube.com/embed/yqKap1tQWIM" style="position:absolute;top:0;left:0;width:100%;height:100%;""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>
+                    
+                </h3>
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/abs/2002.12106">
+                        <img src="img/paper_image.jpg" height="120px"><br>
+                            <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/yqKap1tQWIM">
+                        <img src="img/youtube_icon_dark.png" height="120px"><br>
+                            <h4><strong>Technical Video</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/avinashpaliwal/Deep-SloMo">
+                        <img src="img/github_pad.png" height="120px"><br>
+                            <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="https://drive.google.com/open?id=1QhpVUIjp9kwuCXTMqUC3jMYZFY4QPcHU">
+                        <img src="./slomo_files/paperclip.png" height="120px"><br>
+                            <h4><strong>Supplement</strong></h4>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    BibTeX
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <div class="CodeMirror cm-s-default CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -17px; border-right-width: 13px; min-height: 100px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 16.6667px;">&nbsp;</div></div><div class="CodeMirror-code" style=""><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">@article{paliwal2020slowmotion,</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    title={Deep Slow Motion Video Reconstruction with Hybrid Imaging System},</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    author={Avinash Paliwal and Nima Khademi Kalantari},</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    journal={arXiv preprint arXiv:2002.12106},</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">    year={2020},</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;">}</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 13px; width: 1px; top: 100px;"></div><div class="CodeMirror-gutters" style="display: none; height: 188px;"></div></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a> and <a href="http://people.eecs.berkeley.edu/~bmild/">Ben Mildenhall</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body></html>
